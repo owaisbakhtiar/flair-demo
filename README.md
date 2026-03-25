@@ -1,2 +1,3 @@
 # flair-demo
-demo app for flair marketplace performance improvement
+
+Demo app for Flair marketplace performance improvement.
