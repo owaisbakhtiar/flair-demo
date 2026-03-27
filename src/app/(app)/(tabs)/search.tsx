@@ -5,14 +5,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 
-export default function HomeScreen() {
+export default function SearchScreen() {
   return (
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea}>
-        <ThemedText type="title">Home</ThemedText>
-        <ThemedText type="default">
-          Welcome to Flair Demo. Open the drawer menu to go to Login or Register.
-        </ThemedText>
+        <ThemedText type="title">Search</ThemedText>
+        <ThemedText type="default">Search tab content goes here.</ThemedText>
       </SafeAreaView>
     </ThemedView>
   );
